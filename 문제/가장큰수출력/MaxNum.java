@@ -1,4 +1,4 @@
-package 가장큰수출력;
+package 문제.가장큰수출력;
 
 import java.util.Scanner;
 

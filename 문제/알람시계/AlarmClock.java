@@ -1,4 +1,4 @@
-package 알람시계;
+package 문제.알람시계;
 
 import java.util.Scanner;
 
