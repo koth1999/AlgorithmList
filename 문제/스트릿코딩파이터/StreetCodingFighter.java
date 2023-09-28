@@ -28,6 +28,18 @@ package 문제.스트릿코딩파이터;
 // 출력
 // 첫째 줄에 가장 높은 점수를 받은 동아리의 점수를 출력한다.
 
+// 입력
+// 3 6 9
+// 2
+// 1 2 3
+// 1 1 1
+// 2 2 2
+// 0 0 0
+// 0 1 0
+// 3 3 3
+
+// 출력 : 96
+
 import java.util.Scanner;
 
 public class StreetCodingFighter {
