@@ -2,7 +2,7 @@ package 문제.ScalingRecipes;
 
 // You've got a recipe which specifies a number of ingredients, the amount of each ingredient you will need, and the number of portions it produces.
 // But, the number of portions you need is not the same as the number of portions specified in the recipe! How can you scale it?
-//
+
 // 입력
 // The first line of input contains three integers
 // n (1 <= n <= 40), x and y (1 <= x,y <= 40,000), where
