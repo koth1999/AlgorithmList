@@ -34,18 +34,18 @@ public class Tax {
         Scanner sc = new Scanner(System.in);
 
         while(true) {
-            int tax = sc.nextInt();
+            int income = sc.nextInt();
 
-            if(tax == 0) { // 0이면 종료
+            if(income == 0) { // 0이면 종료
                 break;
             }
 
-            if(tax <= 1000000) {
-                System.out.println(tax);
-            }else if(tax >= 1000000 && tax <= 5000000) {
-                System.out.println(Math.round(tax * 0.9));
-            }else if(tax >= 5000000) {
-                System.out.println(Math.round(tax * 0.8));
+            if(income <= 1000000) {
+                System.out.println(income);
+            }else if(income >= 1000000 && income <= 5000000) {
+                System.out.println(Math.round(income * 0.9));
+            }else if(income >= 5000000) {
+                System.out.println(Math.round(income * 0.8));
             }
         }
     }
